@@ -28,23 +28,32 @@ tag or commit when you want an intentionally pinned installation.
 - Repository: [retake-tools/image-studio](https://github.com/retake-tools/image-studio)
 - Package ID: `design.retake.image-studio`
 - Package root: `plugin`
+- Current version: `0.10.2`
+- Stable source:
+  `github:retake-tools/image-studio@main#subdirectory=plugin`
 - Development source:
   `github:retake-tools/image-studio@develop#subdirectory=plugin`
 - License: Apache-2.0
 - Status: Official, bundled with Retake Whiteboard
+- Validated: 2026-07-29 with Retake Whiteboard `0.1.3`
 
 ### Retake Video Studio
 
 - Repository: [retake-tools/video-studio](https://github.com/retake-tools/video-studio)
 - Package ID: `design.retake.video-studio`
 - Package root: `package`
+- Current version: `0.1.2`
+- Stable source:
+  `github:retake-tools/video-studio@main#subdirectory=package`
 - Development source:
   `github:retake-tools/video-studio@develop#subdirectory=package`
 - License: Apache-2.0
 - Status: Official, bundled with Retake Whiteboard
+- Validated: 2026-07-29 with Retake Whiteboard `0.1.3`
 
-Stable `main` source commands will be listed after the first public release
-promotion. Whiteboard's bundled copies remain available offline.
+Whiteboard's bundled copies remain available offline. A moving `main` source
+receives update notifications; use a full commit or release tag when an
+intentionally immutable installation is required.
 
 ## Submit a Package
 
