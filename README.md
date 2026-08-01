@@ -28,16 +28,16 @@ tag or commit when you want an intentionally pinned installation.
 - Repository: [retake-tools/image-studio](https://github.com/retake-tools/image-studio)
 - Package ID: `design.retake.image-studio`
 - Package root: `plugin`
-- Current version: `0.10.3`
+- Current version: `0.11.0`
 - Stable source:
   `github:retake-tools/image-studio@main#subdirectory=plugin`
 - Immutable release:
-  `github:retake-tools/image-studio@v0.10.3#subdirectory=plugin`
+  `github:retake-tools/image-studio@v0.11.0#subdirectory=plugin`
 - Development source:
   `github:retake-tools/image-studio@develop#subdirectory=plugin`
 - License: Apache-2.0
 - Status: Official, bundled with Retake Whiteboard
-- Validated: 2026-07-29 with Retake Whiteboard `0.1.3`
+- Validated: 2026-08-01 with Retake Whiteboard `0.1.3`
 
 ### Retake Video Studio
 
@@ -52,12 +52,13 @@ tag or commit when you want an intentionally pinned installation.
 - Development source:
   `github:retake-tools/video-studio@develop#subdirectory=package`
 - License: Apache-2.0
-- Status: Official, bundled with Retake Whiteboard
+- Status: Official, optional; not bundled with Retake Whiteboard by default
 - Validated: 2026-07-29 with Retake Whiteboard `0.1.3`
 
-Whiteboard's bundled copies remain available offline. A moving `main` source
-receives update notifications; use the listed release tag when an
-intentionally immutable installation is required.
+Whiteboard's bundled Image Studio copy remains available offline. Video Studio
+is an optional GitHub-source installation. A moving `main` source receives update
+notifications; use the listed release tag when an intentionally immutable
+installation is required.
 
 ## Submit a Package
 
