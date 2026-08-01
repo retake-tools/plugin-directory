@@ -22,13 +22,13 @@ lock 中记录 exact commit 与 content digest。使用 `main` 等移动分支�
 - 仓库：[retake-tools/image-studio](https://github.com/retake-tools/image-studio)
 - Package ID：`design.retake.image-studio`
 - Package root：`plugin`
-- 当前版本：`0.10.3`
+- 当前版本：`0.11.0`
 - 稳定源：`github:retake-tools/image-studio@main#subdirectory=plugin`
-- 固定发布版：`github:retake-tools/image-studio@v0.10.3#subdirectory=plugin`
+- 固定发布版：`github:retake-tools/image-studio@v0.11.0#subdirectory=plugin`
 - 开发源：`github:retake-tools/image-studio@develop#subdirectory=plugin`
 - License：Apache-2.0
 - 状态：官方，随 Retake Whiteboard 离线分发
-- 验证：2026-07-29，Retake Whiteboard `0.1.3`
+- 验证：2026-08-01，Retake Whiteboard `0.1.3`
 
 ### Retake Video Studio
 
@@ -40,11 +40,11 @@ lock 中记录 exact commit 与 content digest。使用 `main` 等移动分支�
 - 固定发布版：`github:retake-tools/video-studio@v0.1.3#subdirectory=package`
 - 开发源：`github:retake-tools/video-studio@develop#subdirectory=package`
 - License：Apache-2.0
-- 状态：官方，随 Retake Whiteboard 离线分发
+- 状态：官方、可选；Retake Whiteboard 默认不分发
 - 验证：2026-07-29，Retake Whiteboard `0.1.3`
 
-Whiteboard bundled Package 继续保证首次离线可用。移动的 `main` 源可以接收更新通知；需要有意
-固定安装时使用上面列出的 release tag。
+Whiteboard bundled Image Studio Package 继续保证首次离线可用；Video Studio 需要通过 GitHub
+source 选择安装。移动的 `main` 源可以接收更新通知；需要有意固定安装时使用上面列出的 release tag。
 
 ## 提交插件
 
